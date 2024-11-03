@@ -1,0 +1,74 @@
+section#choice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#choice h1 {
+  font-size: 128px;
+  font-weight: 800;
+  font-family: 'Rasa';
+  color: var(--darker-blue);
+  margin-top: 18px;
+  margin-bottom: 0px;
+}
+
+section#choice h2 {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: 'Rasa';
+  color: var(--darker-blue);
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+#fight-choice {
+  display: flex;
+  flex-direction: row;
+}
+
+#choice-a, #choice-b {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background-color 0.5s ease;
+  border-radius: 5px;
+  margin: 8px;
+}
+
+#choice-a:hover, #choice-b:hover {
+  background-color: var(--orange-cream);
+  cursor: pointer;
+}
+
+.tile-holder {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 18px;
+  max-width: 40vw;
+  flex-wrap: wrap;
+}
+
+p#boss-ability {
+  color: var(--lighter-blue);
+  font-family: "Rasa";
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+button {
+  background-color: var(--dark-blue);
+  padding: 18px;
+  border-radius: 5px;
+  margin: 8px;
+  box-shadow: 2px 4px 0px var(--darker-blue);
+}
+
+button p {
+  font-family: 'Rasa';
+  font-size: 24px;
+  color: #FFFFFF;
+  margin: 0px;
+}

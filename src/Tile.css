@@ -1,0 +1,50 @@
+.tile {
+  position: relative;
+  background-color: var(--dark-blue);
+  height: 64px;
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 2px 4px 0px var(--darker-blue);
+  margin: 4px;
+}
+
+.tile.extra-damage {
+  background-color: var(--red);
+  box-shadow: 2px 4px 0px #924444;
+}
+
+.tile.bomb {
+  background-color: var(--darker-blue);
+  border-radius: 12px;
+}
+
+.tile.weak {
+  background-color: var(--lighter-blue);
+}
+
+.tile.player {
+  cursor: pointer;
+}
+
+.tileLetter {
+  position: relative;
+  color: #FFFFFF;
+  font-family: 'Rasa';
+  font-size: 48px;
+  font-weight: 600;
+  margin: 6px;
+  top: 4px;
+}
+
+.usesLeft {
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  color: #FFFFFF;
+  font-family: 'Rasa';
+  font-size: 18px;
+  margin: 0px;
+}

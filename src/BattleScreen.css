@@ -1,0 +1,140 @@
+#battle {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+#battle.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#enemy-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+#enemy-ability-holder, #enemy-turn-holder {
+  background-color: var(--orange-cream);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 5px;
+  max-width: 15%;
+}
+
+#enemy-ability-holder h1, #enemy-turn-holder h1 {
+  color: var(--dark-blue);
+  font-family: 'Rasa';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 4px;
+}
+
+#enemy-ability-holder {
+  text-align: right;
+}
+
+#enemy-ability-holder p, #enemy-turn-holder p {
+  color: var(--darker-blue);
+  font-family: 'Rasa';
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+#enemy-tiles-and-hp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#enemy-tiles {
+  display: flex;
+  flex-direction: row;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 12px;
+}
+
+#enemy-hp {
+  font-family: 'Rasa';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+div#you-died, div#you-win {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+div#you-died.hidden, div#you-win.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+div#you-died h1 {
+  color: var(--red);
+  font-family: "Rasa";
+  font-weight: 200;
+  font-size: 196px;
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+div#you-win h1 {
+  color: #FFFFFF;
+  font-family: "Rasa";
+  font-weight: 200;
+  font-size: 196px;
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+div#you-win h2 {
+  color: #FFFFFF;
+  font-family: "Rasa";
+  font-weight: 200;
+  font-size: 24px;
+  margin-bottom: 12px;
+  margin-top: 0px;
+  max-width: 80%;
+}
+
+button {
+  background-color: var(--dark-blue);
+  padding: 18px;
+  border-radius: 5px;
+  margin: 8px;
+  box-shadow: 2px 4px 0px var(--darker-blue);
+}
+
+button p {
+  font-family: 'Rasa';
+  font-size: 24px;
+  color: #FFFFFF;
+  margin: 0px;
+}
