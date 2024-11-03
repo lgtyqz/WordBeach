@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/WordBeach/static/css/main.b63f9b21.css",
+    "main.js": "/WordBeach/static/js/main.fa5f8354.js",
+    "static/js/453.31743aea.chunk.js": "/WordBeach/static/js/453.31743aea.chunk.js",
+    "static/media/words_alpha.txt": "/WordBeach/static/media/words_alpha.07d6d4cf9a6e118eb024.txt",
+    "index.html": "/WordBeach/index.html",
+    "main.b63f9b21.css.map": "/WordBeach/static/css/main.b63f9b21.css.map",
+    "main.fa5f8354.js.map": "/WordBeach/static/js/main.fa5f8354.js.map",
+    "453.31743aea.chunk.js.map": "/WordBeach/static/js/453.31743aea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b63f9b21.css",
+    "static/js/main.fa5f8354.js"
+  ]
+}
